@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    background-color: #000000;
+    width: 95%;
+    max-width: 420px;
+    opacity: 0.8;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 24px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: #ffffff;
+    width: calc(100% - 100px);
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    float: right;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7c7c7c6b;
+}
+
+.container-medio {
+    margin-top: 30px;
+}
+
+p {
+    margin-top: 30px;
+}
+
+.container-menor {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.lupa {
+    height: 20px;
+}
+
+h2 {
+    color: white;
+    font-size: 28px;
+}
+
+.temp {
+    color: #ffffff;
+}
+
+.descricao {
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+.umidade {
+    color: #ffffff;
+}
